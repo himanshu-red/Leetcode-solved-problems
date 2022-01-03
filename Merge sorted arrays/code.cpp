@@ -4,7 +4,8 @@ public:
         vector<int> res; 
         int i = 0; 
         int j = 0; 
-        nums1.erase(nums1.end()-(nums2.size()) , nums1.end()) ; 
+        nums1.erase(nums1.end()-(nums2.size()) , nums1.end()) ; // removing trailing zeroes
+      
         while (i < nums1.size() && j < nums2.size())
         {
             
