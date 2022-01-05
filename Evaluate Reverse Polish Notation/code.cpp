@@ -11,8 +11,6 @@ public:
     
     int evalRPN(vector<string>& tokens) {
     vector<long long> Stack;
-    stringstream ss; 
-    int temp; 
         
     for (int i = 0; i < tokens.size(); i++)
     {
