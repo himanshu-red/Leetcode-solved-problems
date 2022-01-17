@@ -17,8 +17,7 @@ public:
                 temp += s[i]; 
             }
         }
-        vec.push_back(temp); 
-        // for (auto &i : vec) cout << i << endl; 
+        vec.push_back(temp);
         if (vec.size() != pattern.size()) return false; 
         for (int i = 0; i< vec.size(); i++)
         {
