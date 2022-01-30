@@ -24,9 +24,7 @@ public:
                 if (nums[i-1] == 0)
                     leftZeroes++;
                 else if (nums[i-1] == 1)
-                    rightOnes--; 
-
-                    
+                    rightOnes--;
             }
             if (maxScore < leftZeroes+rightOnes)
             {
